@@ -1,0 +1,70 @@
+body{
+	background-color: #fdfdca;
+}
+header{
+	padding: 0px 100% 0% 0%;
+	background-color: #FAFB7E;
+	position:absolute;
+	top: 0%;
+	margin-left: 92px;
+	margin-top: -200px;
+}
+.titulo{
+ position: relative;
+ top: 0.9em;
+ font-size: 100px;
+ width: 900px;
+ margin: 10%;
+}
+.logo{
+	position: relative;
+	height: 100px;
+	width:100px;
+}
+
+.barraNavegacion{
+	position: fixed;
+	height: 100%;
+	width: 100px;
+	left: 0%;
+	top: 0%;
+	background-color: #FAFB7E;
+
+}
+.cocineros{
+	position: relative;
+	left: 92px;
+	top: -350px;
+}
+.cocinamos{
+	position: relative;
+	left: 90px;
+	top: 105px;
+}
+.contacto{
+	position: relative;
+	left: 92px;
+	top: -350px;
+}
+.consulta{
+	position: relative;
+	left: 88px;
+	top: -80px;
+}
+.nuestros{
+	position: relative;
+	left: 640px;
+	top: -588px;
+}
+.barraNavegacionul li{
+	list-style: none;
+	position: fixed;
+	text-align: center;
+	position: relative;
+	padding: 10px 10px 20px 10px;
+	background-color: #7ebcfb;
+	border-radius: 15px;
+	margin-left: -40px;
+	margin-top: 10px;
+	font-size: 15px;
+}
