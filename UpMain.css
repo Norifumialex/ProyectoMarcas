@@ -1,70 +1,114 @@
 body{
-	background-color: #fdfdca;
+	background-color: black;
 }
 header{
-	padding: 0px 100% 0% 0%;
-	background-color: #FAFB7E;
+	max-width: 1920px;
+	max-height: 268.8px;
+	min-height: 80px;
+	width: 100%;
+	height: 14%;
+	padding: 10px;
+	background-color: #EAF943;
 	position:absolute;
 	top: 0%;
-	margin-left: 92px;
-	margin-top: -200px;
+	margin: 0%;
 }
-.titulo{
- position: relative;
- top: 0.9em;
- font-size: 100px;
- width: 900px;
- margin: 10%;
+@font-face{
+		font-family: Whitelist-Demo;
+		src:url(fuente/Whitelist-Demo.otf);
+	}
+@font-face{
+	font-family: BeautyDream;
+		src:url(fuente/BeautyDream.otf);
 }
-.logo{
+header h1{
 	position: relative;
-	height: 100px;
-	width:100px;
+	top: -40%;
+	font-size: 500%;
+	text-align: center;
+	font-family: BeautyDream;
 }
-
+a{
+	color: black;
+	text-decoration: none;
+}
 .barraNavegacion{
 	position: fixed;
 	height: 100%;
-	width: 100px;
+	width: 7%;
 	left: 0%;
 	top: 0%;
-	background-color: #FAFB7E;
+	background-color: #EAF943;
 
 }
-.cocineros{
-	position: relative;
-	left: 92px;
-	top: -350px;
-}
-.cocinamos{
-	position: relative;
-	left: 90px;
-	top: 105px;
-}
-.contacto{
-	position: relative;
-	left: 92px;
-	top: -350px;
-}
-.consulta{
-	position: relative;
-	left: 88px;
-	top: -80px;
-}
-.nuestros{
-	position: relative;
-	left: 640px;
-	top: -588px;
-}
-.barraNavegacionul li{
+.barraNavegacion li{
 	list-style: none;
-	position: fixed;
 	text-align: center;
-	position: relative;
-	padding: 10px 10px 20px 10px;
+	margin-top: 10%;
+	padding: 15% 19% 10% 19%;
 	background-color: #7ebcfb;
 	border-radius: 15px;
-	margin-left: -40px;
-	margin-top: 10px;
-	font-size: 15px;
+	font-size: 20px;
+	font-family: Whitelist-Demo;
+
+}
+.imagen1{
+	width: 38.7%;
+	height: 45%;
+	position: absolute;
+	left: 12%;
+	top: 20%;
+	background-image: url(imagenes/main/WEB1.png);
+	background-repeat: no-repeat;
+	border: solid white 5px ;
+}
+.imagen2{
+	width: 38.7%;
+	height: 45%;
+	position: absolute;
+	left: 54.3%;
+	top: 20%;
+	background-image: url(imagenes/main/WEB3001.png);
+	background-repeat: no-repeat;
+	border: solid white 5px ;
+}
+.imagen3{
+	width: 38.7%;
+	height: 45%;
+	position: absolute;
+	left: 12%;
+	top: 70%;
+	background-image: url(imagenes/main/WEB4001.png);
+	background-repeat: no-repeat;
+	border: solid white 5px ;
+}
+.imagen4{
+	width: 38.7%;
+	height: 45%;
+	position: absolute;
+	left: 54.3%;
+	top: 70%;
+	background-image: url(imagenes/main/WEB5001.png);
+	background-repeat: no-repeat;
+	border: solid white 5px ;
+}
+.Nuestra{
+	max-width: 71.5%;
+	position: relative;
+	margin-left: 12%;
+	margin-top: 65%;
+	border: solid white 5px;
+	padding: 0% 10% 4.5% 0%;
+	text-align: center;
+	color: white;
+	font-family: Whitelist-Demo;
+	font-size: 30px;
+}
+.cocinamos{
+	float: left;
+}
+.prueba{
+	color: white;
+	margin-left: 12%;
+	margin-top: 10%;
 }
