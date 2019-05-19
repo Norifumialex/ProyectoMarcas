@@ -94,21 +94,94 @@ a{
 }
 .Nuestra{
 	max-width: 71.5%;
-	position: relative;
 	margin-left: 12%;
 	margin-top: 65%;
 	border: solid white 5px;
-	padding: 0% 10% 4.5% 0%;
+	padding: 0% 10% 0% 0%;
 	text-align: center;
 	color: white;
 	font-family: Whitelist-Demo;
 	font-size: 30px;
 }
 .cocinamos{
-	float: left;
-}
-.prueba{
-	color: white;
+	max-width: 71.5%;
 	margin-left: 12%;
 	margin-top: 10%;
+	border: solid white 5px;
+	padding: 0% 0% 0% 10%;
+	text-align: center;
+	color: white;
+	font-family: Whitelist-Demo;
+	font-size: 30px;
+}
+.consultoria{
+	max-width: 71.5%;
+	margin-left: 12%;
+	margin-top: 10%;
+	border: solid white 5px;
+	padding: 0% 10% 0% 0%;
+	text-align: center;
+	color: white;
+	font-family: Whitelist-Demo;
+	font-size: 30px;
+}
+.izquierda{
+	float: left;
+}
+.derecha{
+	float: right;
+}
+.marginNuestros{
+	margin-left: 12%;
+}
+.NuestrosClientes{
+	max-width: 71.5%;
+	margin-top: 10%;
+	border: solid black 5px;
+	padding: 0% 10.8% 0% 10.8%;
+	text-align: center;
+	background-color: white;
+	font-family: Whitelist-Demo;
+	font-size: 30px;
+}
+.contenedorColumnas{
+	display: table-cell;
+	background-color: white;
+	padding:2% 6%;
+	text-align: center;
+	border: solid black 5px;
+	font-family: Whitelist-Demo;
+	font-size: 25px;
+}
+.contacto{
+	max-width: 71.5%;
+	margin-left: 12%;
+	margin-top: 10%;
+	border: solid white 5px;
+	padding: 0% 5% 0% 5%;
+	text-align: center;
+	color: white;
+	font-family: Whitelist-Demo;
+	font-size: 30px;
+}
+.foot{
+	margin-top: 10%;
+	max-width: 1920px;
+	margin-left: 6.5%;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background-color: white;
+	text-align: center;
+	font-family: Whitelist-Demo;
+	font-size: 20px;
+}
+.form2{
+	color: white;
+	text-decoration: none;
+}
+.inglés{
+	position: absolute;
+	top: 50%;
+	right: 10%;
 }
