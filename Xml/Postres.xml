@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xsl-stylesheet type="text/xsl" href="Recetas.xsl"?>
+<Postres>
+  <Postre1>
+  <nombre>Pudín de banana y chocolate.</nombre>
+    <Ingredientes>
+     <Infrediente>3 bananas.</Infrediente>
+      <Infrediente>4 cdas. de crema de leche.</Infrediente>
+      <Infrediente>250 g de chocolate untable.</Infrediente>
+      </Ingredientes>
+    <Pasos>
+      <Paso>Pela las bananas y en un recipiente tritúralas con un tenedor.</Paso>
+      <Paso>Mezcla la crema de leche con el chocolate untable. </Paso>
+      <Paso>Añade el "puré de banana" a la mezcla de chocolate.</Paso>
+      <Paso>Reserva en el refrigerador por una hora y disfruta junto a ellos de una sencilla delicia</Paso>
+    </Pasos>
+  </Postre1>
+    <Postre2>
+  <nombre>Dip de limón.</nombre>
+    <Ingredientes>
+     <Infrediente>El zumo de 4 limones grandes.</Infrediente>
+      <Infrediente>4 cdas. de miel.</Infrediente>
+      <Infrediente>2 cdas. de queso crema.</Infrediente>
+      <Infrediente>250 g de yogurt griego.</Infrediente>
+      <Infrediente>Rayadura de una cáscara de limón.</Infrediente>
+      </Ingredientes>
+    <Pasos>
+      <Paso>Mezcla el zumo de limón con la miel hasta conseguir una sustancia homogénea.. </Paso>
+      <Paso>Añade, poco a poco y sin dejar de batir, el yogurt a la mezcla de limón y miel.</Paso>
+      <Paso>Vierte en pequeños recipientes la mezcla que acabas de preparar.</Paso>
+      <Paso>Decora con un poco de ralladura de limón.</Paso>
+      <Paso>Reserva en el refrigerador durante 1 hora. Retira y disfruta del dulce sabor de este postre..</Paso>
+    </Pasos>
+  </Postre2>
+   <Postre3>
+  <nombre>Rollos de canela caseros.</nombre>
+    <Ingredientes>
+     <Infrediente>Canela en polvo.</Infrediente>
+      <Infrediente>Pan blanco de molde.</Infrediente>
+      <Infrediente>Chocolate untable.</Infrediente>
+      <Infrediente>Mantequilla.</Infrediente>
+      <Infrediente>Azúcar.</Infrediente>
+      </Ingredientes>
+    <Pasos>
+      <Paso>Corta el borde marrón del pan de molde de manera que obtengas cudrados del relleno blanco.   </Paso>
+      <Paso>Mezcla la canela en polvo con el azúcar.</Paso>
+      <Paso>Pasa un rodillo sobre el pan blanco. </Paso>
+      <Paso>Corta cada cuadrado de pan en dos de manera que obtengas rectángulos. </Paso>
+      <Paso>Esparce chocolate untable sobre cada rectángulo de pan.</Paso>
+      <Paso>Espolvorea sobre el chocolate un poco de azúcar y canela.. </Paso>
+      <Paso>Enrolla cada rectángulo formando un pequeño rollo.  </Paso>
+      <Paso>Unta la totalidad del rollo con mantequilla y vuelve a espolvorear un poco de azúcar y canela.  </Paso>
+      <Paso>Pasa tus rollos al horno apenas unos minutos y disfrútalos calientes y sabrosos.   </Paso>
+    </Pasos>
+  </Postre3>
+</Postres>
