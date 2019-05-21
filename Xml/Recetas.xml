@@ -1,14 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xsl-stylesheet type="text/xsl" href="Recetas.xsl"?>
+<!DOCTYPE Recetas [
+  <!ELEMENT Recetas (Receta*)>
+  <!ELEMENT Receta (nombre,Ingredientes,Pasos)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT Ingredientes (ingrediente*)>
+  <!ELEMENT ingrediente (#PCDATA)>
+  <!ELEMENT Pasos (Paso*)>
+  <!ELEMENT Paso (#PCDATA)>
+]>
 <Recetas>
-  <Receta1>
+  <Receta>
   <nombre>Bocaditos de hojaldre al pesto con queso de cabra y tomate seco.</nombre>
     <Ingredientes>
-     <Infrediente>Hojaldre 1 plancha (refrigerado)</Infrediente>
-      <Infrediente>Pesto de albahaca 2 cucharadas soperas</Infrediente>
-      <Infrediente>Tomate seco 2</Infrediente>
-      <Infrediente>Queso de cabra</Infrediente>
-      <Infrediente>Pimentón dulce</Infrediente>
+     <ingrediente>Hojaldre 1 plancha (refrigerado)</ingrediente>
+      <ingrediente>Pesto de albahaca 2 cucharadas soperas</ingrediente>
+      <ingrediente>Tomate seco 2</ingrediente>
+      <ingrediente>Queso de cabra</ingrediente>
+      <ingrediente>Pimentón dulce</ingrediente>
       </Ingredientes>
     <Pasos>
       <Paso>Estirar plancha de hojaldre y cortar de forma deseada</Paso>
@@ -19,16 +28,16 @@
       <Paso>Una cucharada de queso de cabra crema y tapamos con la otra pieza</Paso>
       <Paso>Ensartamos con las brochetas y espolvoreamos con pimentón</Paso>
     </Pasos>
-  </Receta1>
-    <Receta2>
+  </Receta>
+    <Receta>
   <nombre>Omelette francesa.</nombre>
     <Ingredientes>
-     <Infrediente>5 huevos</Infrediente>
-      <Infrediente>200 g de champiñones.</Infrediente>
-      <Infrediente>2 cdas. de queso crema.</Infrediente>
-      <Infrediente>Un poco de cebolleta.</Infrediente>
-      <Infrediente>200 g de queso mozzarella</Infrediente>
-      <Infrediente>Sal y pimienta.</Infrediente>
+     <ingrediente>5 huevos</ingrediente>
+      <ingrediente>200 g de champiñones.</ingrediente>
+      <ingrediente>2 cdas. de queso crema.</ingrediente>
+      <ingrediente>Un poco de cebolleta.</ingrediente>
+      <ingrediente>200 g de queso mozzarella</ingrediente>
+      <ingrediente>Sal y pimienta.</ingrediente>
       </Ingredientes>
     <Pasos>
       <Paso>Bate los cinco huevos. </Paso>
@@ -41,16 +50,16 @@
       <Paso>Da la vuelta al omelette cuando los huevos estén cocinados. </Paso>
       <Paso>Sirve y disfruta de esta sencilla pero deliciosa receta. </Paso>
     </Pasos>
-  </Receta2>
-   <Receta3>
+  </Receta>
+   <Receta>
   <nombre>Pizzas caseras.</nombre>
     <Ingredientes>
-     <Infrediente>Tortillas (fajitas) blancas de harina.</Infrediente>
-      <Infrediente>Pasta de tomate.</Infrediente>
-      <Infrediente>Tomates frescos.</Infrediente>
-      <Infrediente>Orégano.</Infrediente>
-      <Infrediente>Queso mozzarella.</Infrediente>
-      <Infrediente>Ingredientes que pueden variar: jamón, champiñones, carnes crudas y curadas, quesos maduros, albahaca, tocineta, maíz...</Infrediente>
+     <ingrediente>Tortillas (fajitas) blancas de harina.</ingrediente>
+      <ingrediente>Pasta de tomate.</ingrediente>
+      <ingrediente>Tomates frescos.</ingrediente>
+      <ingrediente>Orégano.</ingrediente>
+      <ingrediente>Queso mozzarella.</ingrediente>
+      <ingrediente>Ingredientes que pueden variar: jamón, champiñones, carnes crudas y curadas, quesos maduros, albahaca, tocineta, maíz...</ingrediente>
       </Ingredientes>
     <Pasos>
       <Paso>Precalienta el horno a 20 grados centígrados mientras preparas la base de las pizzas.  </Paso>
@@ -61,5 +70,5 @@
       <Paso>Termina roceando un poco de orégano sobre cada pizza. </Paso>
       <Paso>Lleva al horno por 15 o 20 minutos. Retira con precaución y deléitate con esta delicia preparada en familia.  </Paso>
     </Pasos>
-  </Receta3>
+  </Receta>
 </Recetas>

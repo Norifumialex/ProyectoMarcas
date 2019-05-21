@@ -1,12 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xsl-stylesheet type="text/xsl" href="Recetas.xsl"?>
+<!DOCTYPE Postres [
+  <!ELEMENT Postres (Postre*)>
+  <!ELEMENT Postre (nombre,Ingredientes,Pasos)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT Ingredientes (ingrediente*)>
+  <!ELEMENT ingrediente (#PCDATA)>
+  <!ELEMENT Pasos (Paso*)>
+  <!ELEMENT Paso (#PCDATA)>
+]>
 <Postres>
-  <Postre1>
+  <Postre>
   <nombre>Pudín de banana y chocolate.</nombre>
     <Ingredientes>
-     <Infrediente>3 bananas.</Infrediente>
-      <Infrediente>4 cdas. de crema de leche.</Infrediente>
-      <Infrediente>250 g de chocolate untable.</Infrediente>
+     <ingrediente>3 bananas.</ingrediente>
+      <ingrediente>4 cdas. de crema de leche.</ingrediente>
+      <ingrediente>250 g de chocolate untable.</ingrediente>
       </Ingredientes>
     <Pasos>
       <Paso>Pela las bananas y en un recipiente tritúralas con un tenedor.</Paso>
@@ -14,15 +23,15 @@
       <Paso>Añade el "puré de banana" a la mezcla de chocolate.</Paso>
       <Paso>Reserva en el refrigerador por una hora y disfruta junto a ellos de una sencilla delicia</Paso>
     </Pasos>
-  </Postre1>
-    <Postre2>
+  </Postre>
+    <Postre>
   <nombre>Dip de limón.</nombre>
     <Ingredientes>
-     <Infrediente>El zumo de 4 limones grandes.</Infrediente>
-      <Infrediente>4 cdas. de miel.</Infrediente>
-      <Infrediente>2 cdas. de queso crema.</Infrediente>
-      <Infrediente>250 g de yogurt griego.</Infrediente>
-      <Infrediente>Rayadura de una cáscara de limón.</Infrediente>
+     <ingrediente>El zumo de 4 limones grandes.</ingrediente>
+      <ingrediente>4 cdas. de miel.</ingrediente>
+      <ingrediente>2 cdas. de queso crema.</ingrediente>
+      <ingrediente>250 g de yogurt griego.</ingrediente>
+      <ingrediente>Rayadura de una cáscara de limón.</ingrediente>
       </Ingredientes>
     <Pasos>
       <Paso>Mezcla el zumo de limón con la miel hasta conseguir una sustancia homogénea.. </Paso>
@@ -31,15 +40,15 @@
       <Paso>Decora con un poco de ralladura de limón.</Paso>
       <Paso>Reserva en el refrigerador durante 1 hora. Retira y disfruta del dulce sabor de este postre..</Paso>
     </Pasos>
-  </Postre2>
-   <Postre3>
+  </Postre>
+   <Postre>
   <nombre>Rollos de canela caseros.</nombre>
     <Ingredientes>
-     <Infrediente>Canela en polvo.</Infrediente>
-      <Infrediente>Pan blanco de molde.</Infrediente>
-      <Infrediente>Chocolate untable.</Infrediente>
-      <Infrediente>Mantequilla.</Infrediente>
-      <Infrediente>Azúcar.</Infrediente>
+     <ingrediente>Canela en polvo.</ingrediente>
+      <ingrediente>Pan blanco de molde.</ingrediente>
+      <ingrediente>Chocolate untable.</ingrediente>
+      <ingrediente>Mantequilla.</ingrediente>
+      <ingrediente>Azúcar.</ingrediente>
       </Ingredientes>
     <Pasos>
       <Paso>Corta el borde marrón del pan de molde de manera que obtengas cudrados del relleno blanco.   </Paso>
@@ -52,5 +61,5 @@
       <Paso>Unta la totalidad del rollo con mantequilla y vuelve a espolvorear un poco de azúcar y canela.  </Paso>
       <Paso>Pasa tus rollos al horno apenas unos minutos y disfrútalos calientes y sabrosos.   </Paso>
     </Pasos>
-  </Postre3>
+  </Postre>
 </Postres>
