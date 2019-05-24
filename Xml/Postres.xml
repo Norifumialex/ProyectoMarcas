@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xsl-stylesheet type="text/xsl" href="Recetas.xsl"?>
+<?xsl-stylesheet type="text/xsl" href="Postres.xsl"?>
 <!DOCTYPE Postres [
   <!ELEMENT Postres (Postre*)>
   <!ELEMENT Postre (nombre,Ingredientes,Pasos)>
