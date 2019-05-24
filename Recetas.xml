@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xsl-stylesheet type="text/xsl" href="Recetas.xsl"?>
+<!DOCTYPE Recetas [
+  <!ELEMENT Recetas (Receta*)>
+  <!ELEMENT Receta (nombre,imagen,Ingredientes,Pasos)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT imagen (#PCDATA)>
+  <!ELEMENT Ingredientes (ingrediente*)>
+  <!ELEMENT ingrediente (#PCDATA)>
+  <!ELEMENT Pasos (Paso*)>
+  <!ELEMENT Paso (#PCDATA)>
+]>
+<?xml-stylesheet type="text/xsl" href="Recetas.xsl"?>
+<Recetas>
+  <Receta>
+  <nombre>Bocaditos de hojaldre.</nombre>
+  <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
+  <Ingredientes>
+     <ingrediente>Hojaldre 1 plancha (refrigerado)</ingrediente>
+      <ingrediente>Pesto de albahaca 2 cucharadas soperas</ingrediente>
+      <ingrediente>Tomate seco 2</ingrediente>
+      <ingrediente>Queso de cabra</ingrediente>
+      <ingrediente>Pimentón dulce</ingrediente>
+    </Ingredientes>
+  <Pasos>
+      <Paso>Estirar plancha de hojaldre y cortar de forma deseada</Paso>
+      <Paso>Untamos piezas con la salsa pesto cubriendolas con otras sin untar</Paso>
+      <Paso>Hornear a 200º en el horno con calor arriba y abajo durante 20 min aprox</Paso>
+      <Paso>Dejamos enfriar el hojaldre y los montamos antes de servir</Paso>
+      <Paso>Ponemos uno doble con pesto en la base, lo cubrimos con un trozo de tomate seco</Paso>
+      <Paso>Una cucharada de queso de cabra crema y tapamos con la otra pieza</Paso>
+      <Paso>Ensartamos con las brochetas y espolvoreamos con pimentón</Paso>
+  </Pasos>
+  </Receta>
+    <Receta>
+  <nombre>Omelette francesa.</nombre>
+    <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
+    <Ingredientes>
+     <ingrediente>5 huevos</ingrediente>
+      <ingrediente>200 g de champiñones.</ingrediente>
+      <ingrediente>2 cdas. de queso crema.</ingrediente>
+      <ingrediente>Un poco de cebolleta.</ingrediente>
+      <ingrediente>200 g de queso mozzarella</ingrediente>
+      <ingrediente>Sal y pimienta.</ingrediente>
+      </Ingredientes>
+    <Pasos>
+      <Paso>Bate los cinco huevos. </Paso>
+      <Paso>Agrega las cucharadas de queso crema y bate hasta conseguir una sustancia homogénea.</Paso>
+      <Paso>Agrega sal, pimienta y cebolleta a los huevos crudos.</Paso>
+      <Paso>Ralla el queso mozzarella.</Paso>
+      <Paso>En una sartén sofríe los champiñones hasta que éstos suelten su jugo.</Paso>
+      <Paso>Agrega los huevos batidos a la sartén y no los mezcles hasta que estén bien cocinados por un lado. </Paso>
+      <Paso>Agrega el queso rallado a los huevos en cocción. </Paso>
+      <Paso>Da la vuelta al omelette cuando los huevos estén cocinados. </Paso>
+      <Paso>Sirve y disfruta de esta sencilla pero deliciosa receta. </Paso>
+    </Pasos>
+  </Receta>
+   <Receta>
+  <nombre>Pizzas caseras.</nombre>
+    <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
+    <Ingredientes>
+     <ingrediente>Tortillas (fajitas) blancas de harina.</ingrediente>
+      <ingrediente>Pasta de tomate.</ingrediente>
+      <ingrediente>Tomates frescos.</ingrediente>
+      <ingrediente>Orégano.</ingrediente>
+      <ingrediente>Queso mozzarella.</ingrediente>
+      <ingrediente>Ingredientes que pueden variar: jamón, champiñones, carnes crudas y curadas, quesos maduros, albahaca, tocineta, maíz...</ingrediente>
+      </Ingredientes>
+    <Pasos>
+      <Paso>Precalienta el horno a 20 grados centígrados mientras preparas la base de las pizzas.  </Paso>
+      <Paso>Sobre las tortillas unta generosamente pasta de tomate.</Paso>
+      <Paso>Corta los tomates en rodajas y agrégalos a la base. </Paso>
+      <Paso>Ralla el queso y añádelo a la pizza sobre los tomates.</Paso>
+      <Paso>Ahora agrega los ingredientes que desees variar: carnes, quesos, vegetales...</Paso>
+      <Paso>Termina roceando un poco de orégano sobre cada pizza. </Paso>
+      <Paso>Lleva al horno por 15 o 20 minutos. Retira con precaución y deléitate con esta delicia preparada en familia.  </Paso>
+    </Pasos>
+  </Receta>
+</Recetas>
