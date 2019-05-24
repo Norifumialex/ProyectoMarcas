@@ -2,9 +2,8 @@
 <?xsl-stylesheet type="text/xsl" href="Recetas.xsl"?>
 <!DOCTYPE Recetas [
   <!ELEMENT Recetas (Receta*)>
-  <!ELEMENT Receta (nombre,imagen,Ingredientes,Pasos)>
+  <!ELEMENT Receta (nombre,Ingredientes,Pasos)>
   <!ELEMENT nombre (#PCDATA)>
-  <!ELEMENT imagen (#PCDATA)>
   <!ELEMENT Ingredientes (ingrediente*)>
   <!ELEMENT ingrediente (#PCDATA)>
   <!ELEMENT Pasos (Paso*)>
@@ -14,7 +13,6 @@
 <Recetas>
   <Receta>
   <nombre>Bocaditos de hojaldre.</nombre>
-  <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
   <Ingredientes>
      <ingrediente>Hojaldre 1 plancha (refrigerado)</ingrediente>
       <ingrediente>Pesto de albahaca 2 cucharadas soperas</ingrediente>
@@ -34,7 +32,6 @@
   </Receta>
     <Receta>
   <nombre>Omelette francesa.</nombre>
-    <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
     <Ingredientes>
      <ingrediente>5 huevos</ingrediente>
       <ingrediente>200 g de champiñones.</ingrediente>
@@ -57,7 +54,6 @@
   </Receta>
    <Receta>
   <nombre>Pizzas caseras.</nombre>
-    <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
     <Ingredientes>
      <ingrediente>Tortillas (fajitas) blancas de harina.</ingrediente>
       <ingrediente>Pasta de tomate.</ingrediente>
