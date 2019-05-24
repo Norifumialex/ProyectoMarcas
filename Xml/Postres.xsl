@@ -3,7 +3,7 @@
   <xsl:template match="/Postres">
 <html>
 <head>
-  <title>UP Postres</title>
+  <title>UP Recetas</title>
   <link rel="stylesheet" type="text/css" href="../UpMain.css"/>
 </head>
 <body>
@@ -24,8 +24,8 @@
       </div>
   </nav>
   <section>
-		<h1 class="titulo">Postres</h1>
-		<div class="contenedorReceta">
+    <h1 class="titulo">Postres</h1>
+    <div class="contenedorReceta">
     <xsl:for-each select="Postre">
     <div>
     <div class="nombreReceta">
@@ -46,11 +46,11 @@
       <li><xsl:value-of select="."/></li>
       </xsl:for-each>
       </xsl:for-each>
-		</div>
-		</div>
-	</xsl:for-each>
     </div>
-	</section>
+    </div>
+  </xsl:for-each>
+    </div>
+  </section>
   <footer class="foot">
     <p>
       <a href="https://www.instagram.com/solucionesup/?hl=es"><img src="../imagenes/main/Insta.png"/></a>

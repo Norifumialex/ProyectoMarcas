@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xsl-stylesheet type="text/xsl" href="Postres.xsl"?>
 <!DOCTYPE Postres [
   <!ELEMENT Postres (Postre*)>
   <!ELEMENT Postre (nombre,Ingredientes,Pasos)>
@@ -9,6 +8,7 @@
   <!ELEMENT Pasos (Paso*)>
   <!ELEMENT Paso (#PCDATA)>
 ]>
+<?xml-stylesheet type="text/xsl" href="Postres.xsl"?>
 <Postres>
   <Postre>
   <nombre>Pudín de banana y chocolate.</nombre>
