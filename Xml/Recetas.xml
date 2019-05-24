@@ -2,24 +2,27 @@
 <?xsl-stylesheet type="text/xsl" href="Recetas.xsl"?>
 <!DOCTYPE Recetas [
   <!ELEMENT Recetas (Receta*)>
-  <!ELEMENT Receta (nombre,Ingredientes,Pasos)>
+  <!ELEMENT Receta (nombre,imagen,Ingredientes,Pasos)>
   <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT imagen (#PCDATA)>
   <!ELEMENT Ingredientes (ingrediente*)>
   <!ELEMENT ingrediente (#PCDATA)>
   <!ELEMENT Pasos (Paso*)>
   <!ELEMENT Paso (#PCDATA)>
 ]>
+<?xml-stylesheet type="text/xsl" href="Recetas.xsl"?>
 <Recetas>
   <Receta>
-  <nombre>Bocaditos de hojaldre al pesto con queso de cabra y tomate seco.</nombre>
-    <Ingredientes>
+  <nombre>Bocaditos de hojaldre.</nombre>
+  <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
+  <Ingredientes>
      <ingrediente>Hojaldre 1 plancha (refrigerado)</ingrediente>
       <ingrediente>Pesto de albahaca 2 cucharadas soperas</ingrediente>
       <ingrediente>Tomate seco 2</ingrediente>
       <ingrediente>Queso de cabra</ingrediente>
       <ingrediente>Pimentón dulce</ingrediente>
-      </Ingredientes>
-    <Pasos>
+    </Ingredientes>
+  <Pasos>
       <Paso>Estirar plancha de hojaldre y cortar de forma deseada</Paso>
       <Paso>Untamos piezas con la salsa pesto cubriendolas con otras sin untar</Paso>
       <Paso>Hornear a 200º en el horno con calor arriba y abajo durante 20 min aprox</Paso>
@@ -27,10 +30,11 @@
       <Paso>Ponemos uno doble con pesto en la base, lo cubrimos con un trozo de tomate seco</Paso>
       <Paso>Una cucharada de queso de cabra crema y tapamos con la otra pieza</Paso>
       <Paso>Ensartamos con las brochetas y espolvoreamos con pimentón</Paso>
-    </Pasos>
+  </Pasos>
   </Receta>
     <Receta>
   <nombre>Omelette francesa.</nombre>
+    <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
     <Ingredientes>
      <ingrediente>5 huevos</ingrediente>
       <ingrediente>200 g de champiñones.</ingrediente>
@@ -53,6 +57,7 @@
   </Receta>
    <Receta>
   <nombre>Pizzas caseras.</nombre>
+    <imagen>img=../imagenes/main/bocaditos.jpg</imagen>
     <Ingredientes>
      <ingrediente>Tortillas (fajitas) blancas de harina.</ingrediente>
       <ingrediente>Pasta de tomate.</ingrediente>

@@ -3,7 +3,7 @@
   <xsl:template match="/Recetas">
 <html>
 <head>
-  <title>UP Recetas</title>
+  <title>UP Postres</title>
   <link rel="stylesheet" type="text/css" href="../UpMain.css"/>
 </head>
 <body>
@@ -24,9 +24,9 @@
       </div>
   </nav>
   <section>
-		<h1 class="titulo">Recetas</h1>
+		<h1 class="titulo">Postres</h1>
 		<div class="contenedorReceta">
-    <xsl:for-each select="Receta">
+    <xsl:for-each select="Postre">
     <div>
     <div class="nombreReceta">
     <h2><xsl:value-of select="nombre"/></h2>

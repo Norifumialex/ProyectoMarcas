@@ -9,6 +9,7 @@
   <!ELEMENT Pasos (Paso*)>
   <!ELEMENT Paso (#PCDATA)>
 ]>
+<?xml-stylesheet type="text/xsl" href="Postres.xsl"?>
 <Postres>
   <Postre>
   <nombre>Pudín de banana y chocolate.</nombre>
